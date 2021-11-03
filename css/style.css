@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "KOTRAHOPE";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
-    format("woff2");
+  font-family: "UhBeeSe_hyun";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 * {
   box-sizing: border-box;
-  font-family: "KOTRAHOPE";
+  font-family: "UhBeeSe_hyun";
 }
 
 body {
@@ -52,7 +52,7 @@ img {
 #login-form input {
   border: none;
   background: none;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #login-form input::placeholder {
@@ -64,5 +64,5 @@ img {
 }
 
 #greeting {
-  font-size: 70px;
+  font-size: 50px;
 }
