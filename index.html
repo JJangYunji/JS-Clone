@@ -10,6 +10,7 @@
   <body>
     <div class="page">
       <div class="login hidden">
+        <span>👭</span>
         <form id="login-form">
           <input
             required
@@ -22,20 +23,30 @@
       </div>
 
       <h1 class="hidden" id="greeting"></h1>
-
       <h2 id="clock">00:00:00</h2>
 
-      <form id="todo-form">
-        <input
-          type="text"
-          placeholder="Write a To Do and Press Enter"
-          required
-        />
-      </form>
+      <div class="todo">
+        <div class="todo-firstdiv">
+          <form id="todo-form">
+            <input
+              type="text"
+              placeholder="Write a To Do and Press Enter"
+              required
+            />
+          </form>
+        </div>
 
-      <ul id="todo-list"></ul>
+        <div class="todo-seconddiv">
+          <ul id="todo-list"></ul>
+        </div>
+      </div>
 
       <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="weather">
         <span></span>
         <span></span>
       </div>
@@ -46,5 +57,6 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
