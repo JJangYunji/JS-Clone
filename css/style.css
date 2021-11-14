@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "UhBeeSe_hyun";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff")
+  font-family: "KyoboHand";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -8,7 +8,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: "UhBeeSe_hyun";
+  font-family: "KyoboHand";
 }
 
 body {
@@ -40,29 +40,122 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: fixed;
+  margin-bottom: -800px;
+  font-size: 21px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-bottom: 600px;
+}
+
+.login span {
+  font-size: 35px;
+  margin-right: 10px;
 }
 
 #login-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 #login-form input {
   border: none;
   background: none;
-  font-size: 40px;
+  font-size: 25px;
+  text-align: center;
 }
 
 #login-form input::placeholder {
   color: black;
 }
 
+#login-form input:focus {
+  outline: none;
+}
+
+#login-form button {
+  border: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
 .hidden {
   display: none;
 }
 
+#clock {
+  font-size: 60px;
+  font-weight: bold;
+  position: fixed;
+  margin-bottom: 450px;
+}
+
 #greeting {
-  font-size: 50px;
+  font-size: 32px;
+  position: fixed;
+  margin-bottom: 580px;
+}
+
+#todo-form input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  width: 350px;
+  font-size: 23px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  margin-top: 100px;
+}
+
+.todo-firstdiv {
+  border-right: 1px solid black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-right: 400px;
+}
+
+.todo-seconddiv {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 270px;
+  width: 300px;
+}
+
+#weather {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-bottom: 800px;
+  margin-left: -1650px;
 }
