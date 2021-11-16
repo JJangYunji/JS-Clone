@@ -6,9 +6,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
-  font-family: "KyoboHand";
+  font-family: "GowunDodum-Regular";
 }
 
 body {
@@ -42,7 +50,8 @@ img {
   flex-direction: column;
   position: fixed;
   margin-bottom: -800px;
-  font-size: 21px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .login {
@@ -94,11 +103,11 @@ img {
   font-size: 60px;
   font-weight: bold;
   position: fixed;
-  margin-bottom: 450px;
+  margin-bottom: 470px;
 }
 
 #greeting {
-  font-size: 32px;
+  font-size: 31px;
   position: fixed;
   margin-bottom: 580px;
 }
@@ -118,7 +127,7 @@ img {
 }
 
 #todo-list {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -146,16 +155,21 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 270px;
+  margin-left: 350px;
   width: 300px;
 }
 
 #weather {
-  font-size: 22px;
+  font-size: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  margin-bottom: 800px;
-  margin-left: -1650px;
+  left: 3%;
+  top: 5%;
+  flex-direction: column;
+}
+
+#weather span:first-child {
+  margin-bottom: -30px;
 }
